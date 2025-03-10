@@ -8,16 +8,16 @@ const fs = require('fs');
 const debug = false;
 const debug_data = [];
 
-const course_url = 'YOUR_COURSE_URL_HERE';
-const subtitle_lang = 'en';
+const course_url = https://www.domestika.org/es/courses/1800-escritura-de-un-guion-audiovisual-de-comedia;
+const subtitle_lang = 'es';
 //Specifiy your OS either as 'win' for Windows machines or 'mac' for MacOS/Linux machines
-const machine_os = 'YOUR_OS_HERE';
+const machine_os = 'mac';
 
 //Cookie used to retreive video information
 const cookies = [
     {
         name: '_domestika_session',
-        value: 'YOUR_COOKIE_HERE',
+        value: 'mSVPO87%2F9LN0pFsJyGsCB1wD0CevCdt9Zm%2Fd9xH787y8HUlJk2NcK7oQMKdqA7EcQbIlC74mUJ8whknVW6KcfbcdH9wPQERW1iVFHquFHkaQVLg3jnp%2BNueEMWpMcuiguYW1udNdaGOPWpleync84z0RIiksTaPfIZfPCrodmP7oEAiyTZhaBpi5edyGsm1FeQrs9aPSIzLnGePMEJQN0ySW5Q22ltNosW9hzSDj5iomeIBC1zv2a5C876UFBxY65JynChp1pLKqZznlSk3CRXDpWqS2mxGx1z8ocLAE63fkeDY4dp%2F95w5hGOYYc9wb6dFiAA6Q4kLoe5PJTZ9U5RuhJx0fo7Wwpw0LIdZ%2BEGVTpdnjMyQtYuLhYCPNcY%2BXrHc3%2BCQL3oT%2BdgiSdqs5YTrhYi2dZlNLM1gFr4HTdfl0KlYw0V8mMHfeBkSB0vMdz6BHdbCXnCX9jkEc58GDCKWYq1Dq8opIRzXwi4lWeZEqB1mWiWuwqSLTSJdNBHbAHRw%3D%3D--nqkPM4CR5uOyhtfN--gzA%2Fw%2B%2FQVnYuCoS0xkzpjw%3D%3D',
         domain: 'www.domestika.org',
     },
 ];
